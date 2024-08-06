@@ -1,0 +1,114 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background-color:#141316;
+}
+*{
+  font-family: Arial, Helvetica, sans-serif;
+}
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+.layOut{
+  height:auto;
+  width:90%;
+  
+  float: right;
+}
+
+@media(max-width:700px){
+  .layOut{
+    height:auto;
+    width:100%;
+
+    float: right;
+  }
+}
+
+.form-white.input-group>.form-control:focus {
+  border-color: #fff;
+  box-shadow: inset 0 0 0 1px #fff;
+}
+
+.navbar-dark .navbar-nav .nav-link {
+  color: #fff;
+}
+
+.navbar-dark .navbar-nav .nav-link:hover,
+.navbar-dark .navbar-nav .nav-link:focus {
+  color: rgba(255, 255, 255, 0.75);
+}
+
+
+.light-border-bottom{
+  border-bottom:1px solid grey
+}
+.mycontainer{
+  width:100%;
+  background-color: grey;
+  height:auto;
+  display: flex;  
+}
+.left-menu{
+  width:6%;
+  background-color: rgb(31,32,41) !important;
+  height:90vh;
+  position: sticky;
+  top:70px;
+  border-right: 1px solid grey;
+}
+.right-content{
+  width:100%;
+  background-color:#141316;
+}
+.circle-dash{
+  height:70px;
+  width:70px;
+  background-color: aquamarine;
+  padding:30px;
+  border-radius: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.dash-icon{
+  font-size: 50px;
+}
+
+@media(max-width:900px){
+  
+.left-menu{
+  display: none;
+}
+}
+
+.bg-darker{
+  background-color: rgb(31,32,41) !important;
+}
+.bag{
+  background-color: rgba(0, 110, 255, 0.418);
+  font-size:10px 
+}
+.list-active{
+  border-left:10px solid blue !important 
+}
+.mytable{
+  box-shadow: 0px 8px 13px -3px rgb(27, 26, 26);
+}
+.m1{
+  background-color: rgba(188, 40, 40, 0.578);
+}
+.m2{
+  background-color: rgba(45, 188, 40, 0.578);
+}
+.m3{
+  background-color: rgba(40, 52, 188, 0.578);
+}
+.m4{
+  background-color: rgba(168, 40, 188, 0.578);
+}

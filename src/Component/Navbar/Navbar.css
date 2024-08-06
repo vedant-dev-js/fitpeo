@@ -1,0 +1,205 @@
+*{
+    margin:0px;
+    padding:0px;
+    box-sizing: border-box;
+}
+.mynavbar{
+    background-color: rgb(31,32,41) !important;
+    z-index: 999;
+}
+.top-0{
+z-index: 999;
+}
+.settings{
+gap:5px ;
+display: flex;
+height:80px;
+justify-content: center;
+align-items: center;
+}
+.searchbar::placeholder{
+color:white !important
+}
+.settings span{
+   margin-right:20px; 
+   height:40px;
+   width:40px;
+   border-radius: 50%;
+   background-color: grey;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   overflow: hidden;
+}
+.settings span:hover{
+color:white;
+cursor: pointer;
+transition: all 0.4s;
+}
+.settings span img{
+    height: 100%;
+    width:150%;
+    border-radius: 50%;
+    background-position: center;
+}
+.logo-title{
+    display: flex;
+    gap:20px;
+    align-items: center;
+    justify-content: center;
+    height: 80px;
+
+}
+.logo-title span{
+    display: flex;
+    gap:20px;
+    align-items: center;
+    justify-content: center;
+}
+.logo-title img{
+    height:50px;
+    width:50px;
+    margin-left:30px
+}
+
+
+/**************/
+.search {
+    width: 250px;
+    height: 50px;
+    background-color: #1e272e;
+    border-radius: 4rem;    
+    padding: 10px;
+    transition:all 0.3s ease-in-out;
+  }
+  
+  .search__box {
+    float: left;
+    width: 0;
+    height: 4rem;
+    background: none;
+    color: #f7f7f7;
+    font-size: 1rem;
+    border-radius: 2rem;
+    outline: none;
+    border: none;
+    position: relative;
+    opacity: 1;
+    transition: all .75s ease-in;
+    cursor: pointer;
+    top:-15px;
+    padding-left: 10px;
+  }
+  
+ 
+  
+  .search__icon {
+    box-sizing: border-box;
+    float: right;
+    font-size: 2rem;
+    display: inline-block;
+    margin-top:-10px;
+    margin-left:-10px;
+    cursor: pointer;
+    position: absolute;
+    color: #fefefe;
+    transition: all .25s ease-in;
+    padding: .7rem;
+    border-radius: 50%;
+  }
+  
+  .search:hover > .search__box {
+    width: 85%;
+  
+  }
+  
+  .search:hover > .search__icon {
+    background-color: #282c34;
+  }
+  
+  /* .show {
+    width: 85%;
+    border: 1px solid red;
+  } */
+  .mynavbar2{
+    display: none;
+  }
+
+  @media(max-width:700px){
+    .search {
+        display: none;
+    }
+    .settings{
+        gap:0px ;
+        }
+        .settings span{
+            margin-right:20px; 
+            height:30px;
+            width:30px;
+            border-radius: 50%;
+            background-color: grey;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            overflow: hidden;
+         }
+         .mynavbar{
+            display:flex;
+            justify-content:space-between;
+            align-items: center;
+            flex-wrap: wrap;
+            height:70px;
+            background-color: #282c34;
+            display: none;
+        }
+        .logo-title img{
+            height:40px;
+            width:40px;
+            margin-left:30px
+        }
+        .logo-title{
+            display: flex;
+            gap:20px;
+            align-items: center;
+            justify-content: center;
+            height: 70px;
+        
+        }
+        .mynavbar2{
+          display: block;
+          height:50px;
+          background-color: rgb(31,32,41) !important;
+          border-bottom:1px solid grey;
+          padding:10px
+        }
+        .offcanvas{
+         width:250px !important;
+         background-color: rgb(31,32,41) !important;
+        }
+        .offcanvas-backdrop {
+          position: fixed;
+          top: 0;
+          left: 0;
+          z-index: 1040;
+          width: 100% !important;
+          height: 100vh;
+          background-color: #000;
+      }
+  }
+  .dropdown-menu2{
+    width:400px
+  } 
+  .mail-img{
+    height:40px;
+    width:40px;
+    border-radius: 100%;
+    object-fit: cover;
+  }
+  .mail-details{
+    font-size: 12px;
+    font-family: Arial, Helvetica, sans-serif;
+  }
+  .mail-title{
+    font-size: 15px;
+    font-weight: bold;
+  }

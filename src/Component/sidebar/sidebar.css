@@ -1,0 +1,26 @@
+.sidebarList li:hover{
+    
+   
+}
+.sidebarList li{
+    width:90%;
+    height:50px;
+    display: flex;
+    justify-content: center;   
+    align-items: center;
+   
+}
+.myactive{
+    border-left:5px solid grey;
+  
+}
+.sidebarList li:active{
+    border-left:5px solid grey;
+   
+}
+
+@media(max-width:900px){
+    .sidebar-div{
+        display: none;
+    }
+}
